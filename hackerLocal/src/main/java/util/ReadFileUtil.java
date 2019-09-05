@@ -57,5 +57,28 @@ public class ReadFileUtil {
         return res;
     }
 
+    public <T> T[][] extractNumberSquare(Class<T> clazz) throws IOException {
+        List<String> lines = extractFile();
+        String[] charLine;
+        T[][] res = (T[][]) Array.newInstance(clazz, lines.get(0).split(SPACE).length, lines.size());
+        for (int i = 0; i < lines.size(); i++) {
+            charLine = lines.get(i).split(SPACE);
+            for (int j = 0; j < charLine.length; j++) {
+                if (clazz == (Integer.class)) {
+                    res[i][j] = clazz.cast(Integer.parseInt(charLine[j]));
+                } else if (clazz == (Double.class)) {
+                    res[i][j] = clazz.cast(Double.parseDouble(charLine[j]));
+                } else if (clazz == (Long.class)) {
+                    res[i][j] = clazz.cast(Long.parseLong(charLine[j]));
+                } else if (clazz == (Float.class)) {
+                    res[i][j] = clazz.cast(Float.parseFloat(charLine[j]));
+                }
+            }
+        }
+        int count = 0;
+
+        return res;
+    }
+
 
 }

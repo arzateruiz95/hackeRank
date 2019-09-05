@@ -2,31 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ae70dc8b-814f-4607-944b-def8f800990e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/sonarIssues.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com.hacker.luis.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ClimbingLeaderboard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ClimbingLeaderboardSpec.groovy" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/util/ReadFileUtilSpec.groovy" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/FormingMagicSquare.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/SimpleArraySum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/TheHurdleRace.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/FormingMagicSquareSpec.groovy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/SimpleArraySumTest.groovy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TheHurdleRaceSpec.groovy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/sonarIssues.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/sonarIssues.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarIssues.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarIssues.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/SherlockAndTheValidString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SherlockAndTheValidString.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/util/ReadFileUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/util/ReadFileUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/AlternatingCharacters.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/AlternatingCharacters.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/CountingValleys.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/CountingValleys.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/JumpingOnTheClouds.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/JumpingOnTheClouds.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/MakingAnagrams.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/MakingAnagrams.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/RepeatedString.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/RepeatedString.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/SockMerchant.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/SockMerchant.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/TwoDArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/TwoDArray.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/util/ReadFileUtilSpec.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/util/ReadFileUtilSpec.groovy" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/util/ReadFileUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/util/ReadFileUtil.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/AlternatingCharactersSpec.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/AlternatingCharactersSpec.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/hackerLocal.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/MakingAnagramsSpec.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/MakingAnagramsSpec.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/RepeatedStringSpec.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/RepeatedStringSpec.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/SherlockAndTheValidStringSpec.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/SherlockAndTheValidStringSpec.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/TwoDArraySpec.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/TwoDArraySpec.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -40,12 +28,21 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/SimpleArraySum.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="72">
+              <caret line="4" column="29" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ClimbingLeaderboard.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="181">
-              <caret line="65" column="59" selection-end-line="68" />
+            <state relative-caret-position="810">
+              <caret line="45" selection-start-line="45" selection-end-line="45" />
             </state>
           </provider>
         </entry>
@@ -53,7 +50,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/ClimbingLeaderboardSpec.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
+            <state relative-caret-position="360">
               <caret line="20" column="80" selection-start-line="20" selection-start-column="80" selection-end-line="20" selection-end-column="80" />
               <folding>
                 <element signature="e#0#31#0" expanded="true" />
@@ -63,23 +60,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/util/ReadFileUtil.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/JumpingOnTheClouds.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="46" column="61" lean-forward="true" selection-start-line="46" selection-start-column="61" selection-end-line="46" selection-end-column="61" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#443#444#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="36">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/util/ReadFileUtilSpec.groovy">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/SimpleArraySumTest.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="127">
-              <caret line="75" column="12" lean-forward="true" selection-start-line="75" selection-start-column="12" selection-end-line="75" selection-end-column="12" />
+            <state relative-caret-position="204">
+              <caret line="12" column="57" selection-start-line="12" selection-start-column="57" selection-end-line="12" selection-end-column="57" />
             </state>
           </provider>
         </entry>
@@ -125,9 +118,15 @@
         <option value="$PROJECT_DIR$/src/main/java/MyRegex.java" />
         <option value="$PROJECT_DIR$/src/main/java/SherlockAndTheValidString.java" />
         <option value="$PROJECT_DIR$/src/test/java/ClimbingLeaderboardSpec.groovy" />
-        <option value="$PROJECT_DIR$/src/test/java/util/ReadFileUtilSpec.groovy" />
-        <option value="$PROJECT_DIR$/src/main/java/util/ReadFileUtil.java" />
         <option value="$PROJECT_DIR$/src/main/java/ClimbingLeaderboard.java" />
+        <option value="$PROJECT_DIR$/src/main/java/TheHurdleRace.java" />
+        <option value="$PROJECT_DIR$/src/main/java/util/ReadFileUtil.java" />
+        <option value="$PROJECT_DIR$/src/test/java/TheHurdleRaceSpec.groovy" />
+        <option value="$PROJECT_DIR$/src/test/java/util/ReadFileUtilSpec.groovy" />
+        <option value="$PROJECT_DIR$/src/test/java/FormingMagicSquareSpec.groovy" />
+        <option value="$PROJECT_DIR$/src/main/java/FormingMagicSquare.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SimpleArraySum.java" />
+        <option value="$PROJECT_DIR$/src/test/java/SimpleArraySumTest.groovy" />
       </list>
     </option>
   </component>
@@ -143,10 +142,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-12" />
-    <option name="y" value="-12" />
-    <option name="width" value="1944" />
-    <option name="height" value="1104" />
+    <option name="x" value="-1928" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1066" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -155,6 +154,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -184,14 +184,6 @@
               <item name="hackerLocal" type="b2602c69:ProjectViewProjectNode" />
               <item name="hackerLocal" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hackerLocal" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hackerLocal" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -205,7 +197,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -217,17 +208,17 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
-      <recent name="util" />
       <recent name="" />
+      <recent name="util" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\luis.arzate\Documents\courses\hackerLocal\src\main\resources\input" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\luis.arzate\Documents\courses\hackeRank" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="spock.lang.Specification" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\luis.arzate\Documents\courses\hackeRank" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\luis.arzate\Documents\courses\hackerLocal\src\main\resources\input" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -242,28 +233,22 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ReadFileUtilSpec.Validar Array Number">
-    <configuration name="ClimbingLeaderboardSpec.Valida ClimbingLeaderBoard" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.SimpleArraySumTest">
+    <configuration name="FormingMagicSquareSpec" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="com.hacker.luis" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ClimbingLeaderboardSpec" />
-      <option name="METHOD_NAME" value="Valida ClimbingLeaderBoard" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" value="FormingMagicSquareSpec" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReadFileUtilSpec" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FormingMagicSquareSpec.Validate Formin a magic Square" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="com.hacker.luis" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="util.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="util" />
-      <option name="MAIN_CLASS_NAME" value="util.ReadFileUtilSpec" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="FormingMagicSquareSpec" />
+      <option name="METHOD_NAME" value="Validate Formin a magic Square" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -284,7 +269,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReadFileUtilSpec.Validar Array String" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ReadFileUtilSpec.Validar Square Number" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="com.hacker.luis" />
       <extension name="coverage">
         <pattern>
@@ -294,35 +279,28 @@
       </extension>
       <option name="PACKAGE_NAME" value="util" />
       <option name="MAIN_CLASS_NAME" value="util.ReadFileUtilSpec" />
-      <option name="METHOD_NAME" value="Validar Array String" />
+      <option name="METHOD_NAME" value="Validar Square Number" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReadFileUtilSpec.Validar integer line" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SimpleArraySumTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="com.hacker.luis" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="util.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="util" />
-      <option name="MAIN_CLASS_NAME" value="util.ReadFileUtilSpec" />
-      <option name="METHOD_NAME" value="Validar integer line" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="SimpleArraySumTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SimpleArraySumTest" />
+        <item itemvalue="JUnit.FormingMagicSquareSpec" />
+        <item itemvalue="JUnit.FormingMagicSquareSpec.Validate Formin a magic Square" />
+        <item itemvalue="JUnit.ReadFileUtilSpec.Validar Square Number" />
         <item itemvalue="JUnit.ReadFileUtilSpec.Validar Array Number" />
-        <item itemvalue="JUnit.ClimbingLeaderboardSpec.Valida ClimbingLeaderBoard" />
-        <item itemvalue="JUnit.ReadFileUtilSpec.Validar Array String" />
-        <item itemvalue="JUnit.ReadFileUtilSpec.Validar integer line" />
-        <item itemvalue="JUnit.ReadFileUtilSpec" />
       </list>
     </recent_temporary>
   </component>
@@ -337,38 +315,53 @@
       <option name="presentableId" value="Default" />
       <updated>1559076894183</updated>
     </task>
+    <task id="LOCAL-00001" summary="archivos sonar">
+      <created>1559926867865</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1559926867865</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Se agrega challenge y Utileria de lectura de archivos">
+      <created>1559926897335</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1559926897335</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ReadFileUtilSpec_Validar_Array_String - 2019.06.07 at 11h 11m 59s.xml">
-      <configuration name="ReadFileUtilSpec.Validar Array String" configurationId="JUnit" />
+    <history-entry file="FormingMagicSquareSpec - 2019.06.10 at 15h 36m 26s.xml">
+      <configuration name="FormingMagicSquareSpec" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ReadFileUtilSpec_Validar_Array_String - 2019.06.07 at 11h 12m 32s.xml">
-      <configuration name="ReadFileUtilSpec.Validar Array String" configurationId="JUnit" />
+    <history-entry file="FormingMagicSquareSpec - 2019.06.10 at 15h 39m 33s.xml">
+      <configuration name="FormingMagicSquareSpec" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ReadFileUtilSpec_Validar_Array_String - 2019.06.07 at 11h 13m 17s.xml">
-      <configuration name="ReadFileUtilSpec.Validar Array String" configurationId="JUnit" />
+    <history-entry file="FormingMagicSquareSpec - 2019.06.10 at 15h 40m 05s.xml">
+      <configuration name="FormingMagicSquareSpec" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ReadFileUtilSpec_Validar_Array_String - 2019.06.07 at 11h 13m 52s.xml">
-      <configuration name="ReadFileUtilSpec.Validar Array String" configurationId="JUnit" />
+    <history-entry file="FormingMagicSquareSpec - 2019.06.10 at 15h 40m 36s.xml">
+      <configuration name="FormingMagicSquareSpec" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ReadFileUtilSpec_Validar_Array_String - 2019.06.07 at 11h 14m 41s.xml">
-      <configuration name="ReadFileUtilSpec.Validar Array String" configurationId="JUnit" />
+    <history-entry file="FormingMagicSquareSpec - 2019.06.10 at 15h 47m 24s.xml">
+      <configuration name="FormingMagicSquareSpec" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ReadFileUtilSpec_Validar_Array_String - 2019.06.07 at 11h 14m 47s.xml">
-      <configuration name="ReadFileUtilSpec.Validar Array String" configurationId="JUnit" />
+    <history-entry file="FormingMagicSquareSpec - 2019.06.10 at 15h 47m 38s.xml">
+      <configuration name="FormingMagicSquareSpec" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ReadFileUtilSpec_Validar_Array_Number - 2019.06.07 at 11h 41m 31s.xml">
-      <configuration name="ReadFileUtilSpec.Validar Array Number" configurationId="JUnit" />
+    <history-entry file="FormingMagicSquareSpec - 2019.06.10 at 15h 51m 07s.xml">
+      <configuration name="FormingMagicSquareSpec" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ReadFileUtilSpec_Validar_Array_Number - 2019.06.07 at 11h 42m 05s.xml">
-      <configuration name="ReadFileUtilSpec.Validar Array Number" configurationId="JUnit" />
+    <history-entry file="FormingMagicSquareSpec - 2019.06.10 at 15h 54m 19s.xml">
+      <configuration name="FormingMagicSquareSpec" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ReadFileUtilSpec_Validar_Array_Number - 2019.06.07 at 11h 47m 21s.xml">
-      <configuration name="ReadFileUtilSpec.Validar Array Number" configurationId="JUnit" />
+    <history-entry file="SimpleArraySumTest - 2019.09.05 at 17h 13m 15s.xml">
+      <configuration name="SimpleArraySumTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ClimbingLeaderboardSpec_Valida_ClimbingLeaderBoard - 2019.06.07 at 11h 53m 06s.xml">
-      <configuration name="ClimbingLeaderboardSpec.Valida ClimbingLeaderBoard" configurationId="JUnit" />
+    <history-entry file="SimpleArraySumTest - 2019.09.05 at 17h 13m 35s.xml">
+      <configuration name="SimpleArraySumTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -381,28 +374,28 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="55" y="-7" width="1233" height="735" extended-state="6" />
+    <frame x="-1928" y="-8" width="1936" height="1066" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.27450982" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18176973" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.24978687" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="SonarQube" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.36650082" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.28026533" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3660419" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.28150135" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3283582" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.3283582" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.19900498" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.3283582" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.42888644" />
+      <window_info anchor="bottom" id="SonarQube" order="11" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -441,6 +434,11 @@
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
     </layout-to-restore>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="archivos sonar" />
+    <MESSAGE value="Se agrega challenge y Utileria de lectura de archivos" />
+    <option name="LAST_COMMIT_MESSAGE" value="Se agrega challenge y Utileria de lectura de archivos" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -515,25 +513,81 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/util/ReadFileUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="46" column="61" lean-forward="true" selection-start-line="46" selection-start-column="61" selection-end-line="46" selection-end-column="61" />
+        <state relative-caret-position="76">
+          <caret line="62" selection-start-line="62" selection-end-line="62" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#403#404#0" expanded="true" />
             <element signature="e#443#444#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/TheHurdleRaceSpec.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="5" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/util/ReadFileUtilSpec.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="127">
-          <caret line="75" column="12" lean-forward="true" selection-start-line="75" selection-start-column="12" selection-end-line="75" selection-end-column="12" />
+        <state relative-caret-position="187">
+          <caret line="89" column="27" lean-forward="true" selection-start-line="89" selection-start-column="27" selection-end-line="89" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/FormingMagicSquareSpec.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/FormingMagicSquare.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="17" column="17" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/TheHurdleRace.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/SherlockAndTheValidStringSpec.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="22" column="992" selection-start-line="11" selection-start-column="8" selection-end-line="22" selection-end-column="992" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/JumpingOnTheClouds.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ClimbingLeaderboard.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="810">
+          <caret line="45" selection-start-line="45" selection-end-line="45" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ClimbingLeaderboardSpec.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
+        <state relative-caret-position="360">
           <caret line="20" column="80" selection-start-line="20" selection-start-column="80" selection-end-line="20" selection-end-column="80" />
           <folding>
             <element signature="e#0#31#0" expanded="true" />
@@ -541,10 +595,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ClimbingLeaderboard.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/SimpleArraySum.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="181">
-          <caret line="65" column="59" selection-end-line="68" />
+        <state relative-caret-position="72">
+          <caret line="4" column="29" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/DuplicateWords.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="9" column="85" selection-start-line="9" selection-start-column="85" selection-end-line="9" selection-end-column="85" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/SimpleArraySumTest.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="57" selection-start-line="12" selection-start-column="57" selection-end-line="12" selection-end-column="57" />
         </state>
       </provider>
     </entry>

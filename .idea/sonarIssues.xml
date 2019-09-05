@@ -8,6 +8,16 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/../advanceAl/src/main/java/com/advance/util/ReadFileUtil.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../advanceAl/src/test/java/com/advance/util/ReadFileUtilSpec.groovy">
+          <value>
+            <set />
+          </value>
+        </entry>
       </map>
     </option>
   </component>

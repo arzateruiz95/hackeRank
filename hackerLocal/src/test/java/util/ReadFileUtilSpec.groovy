@@ -77,5 +77,20 @@ class ReadFileUtilSpec extends Specification {
         line = 1
     }
 
+    void "Validar Square Number"() {
+        given:
+        readFileUtil = new ReadFileUtil(fileName)
+        when:
+        Integer[][] result = readFileUtil.extractNumberSquare(Integer.class)
+        then:
+        result.length != 0
+        and:
+        result == [[4,9,2],[3,5,7],[8,1,5]]
+        where:
+        fileName = 'C:\\Users\\luis.arzate\\Documents\\courses\\hackeRank\\magic-square-forming-testcases\\input\\input00.txt'
+        and:
+        line = 1
+    }
+
 
 }

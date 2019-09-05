@@ -13,7 +13,17 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/FormingMagicSquare.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/SherlockAndTheValidString.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/TheHurdleRace.java">
           <value>
             <set />
           </value>
@@ -24,6 +34,16 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/src/test/java/ClimbingLeaderboardSpec.groovy">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/test/java/FormingMagicSquareSpec.groovy">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/test/java/TheHurdleRaceSpec.groovy">
           <value>
             <set />
           </value>
