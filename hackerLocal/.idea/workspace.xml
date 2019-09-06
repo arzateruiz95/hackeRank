@@ -2,19 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ae70dc8b-814f-4607-944b-def8f800990e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/FormingMagicSquare.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/SimpleArraySum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/TheHurdleRace.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/FormingMagicSquareSpec.groovy" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/SimpleArraySumTest.groovy" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TheHurdleRaceSpec.groovy" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/sonarIssues.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/sonarIssues.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarIssues.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarIssues.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/CompareTriplets.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/CompareTripletsSpec.groovy" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/util/ReadFileUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/util/ReadFileUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/util/ReadFileUtilSpec.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/util/ReadFileUtilSpec.groovy" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/util/ReadFileUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/util/ReadFileUtil.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -29,50 +19,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/SimpleArraySum.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/CompareTriplets.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="4" column="29" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ClimbingLeaderboard.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="810">
-              <caret line="45" selection-start-line="45" selection-end-line="45" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/ClimbingLeaderboardSpec.groovy">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="20" column="80" selection-start-line="20" selection-start-column="80" selection-end-line="20" selection-end-column="80" />
+            <state relative-caret-position="272">
+              <caret line="16" column="9" lean-forward="true" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
               <folding>
-                <element signature="e#0#31#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/JumpingOnTheClouds.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/CompareTripletsSpec.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="36">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/SimpleArraySumTest.groovy">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="57" selection-start-line="12" selection-start-column="57" selection-end-line="12" selection-end-column="57" />
+            <state relative-caret-position="306">
+              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
             </state>
           </provider>
         </entry>
@@ -127,6 +90,8 @@
         <option value="$PROJECT_DIR$/src/main/java/FormingMagicSquare.java" />
         <option value="$PROJECT_DIR$/src/main/java/SimpleArraySum.java" />
         <option value="$PROJECT_DIR$/src/test/java/SimpleArraySumTest.groovy" />
+        <option value="$PROJECT_DIR$/src/test/java/CompareTripletsSpec.groovy" />
+        <option value="$PROJECT_DIR$/src/main/java/CompareTriplets.java" />
       </list>
     </option>
   </component>
@@ -233,7 +198,16 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.SimpleArraySumTest">
+  <component name="RunManager" selected="JUnit.CompareTripletsSpec">
+    <configuration name="CompareTripletsSpec" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="com.hacker.luis" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CompareTripletsSpec" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="FormingMagicSquareSpec" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="com.hacker.luis" />
       <option name="PACKAGE_NAME" value="" />
@@ -248,22 +222,6 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="FormingMagicSquareSpec" />
       <option name="METHOD_NAME" value="Validate Formin a magic Square" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ReadFileUtilSpec.Validar Array Number" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="com.hacker.luis" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="util.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="util" />
-      <option name="MAIN_CLASS_NAME" value="util.ReadFileUtilSpec" />
-      <option name="METHOD_NAME" value="Validar Array Number" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -296,11 +254,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CompareTripletsSpec" />
         <item itemvalue="JUnit.SimpleArraySumTest" />
         <item itemvalue="JUnit.FormingMagicSquareSpec" />
         <item itemvalue="JUnit.FormingMagicSquareSpec.Validate Formin a magic Square" />
         <item itemvalue="JUnit.ReadFileUtilSpec.Validar Square Number" />
-        <item itemvalue="JUnit.ReadFileUtilSpec.Validar Array Number" />
       </list>
     </recent_temporary>
   </component>
@@ -329,31 +287,17 @@
       <option name="project" value="LOCAL" />
       <updated>1559926897335</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Se agrega challenge y Utileria de lectura de archivos">
+      <created>1567721774501</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1567721774501</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="FormingMagicSquareSpec - 2019.06.10 at 15h 36m 26s.xml">
-      <configuration name="FormingMagicSquareSpec" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FormingMagicSquareSpec - 2019.06.10 at 15h 39m 33s.xml">
-      <configuration name="FormingMagicSquareSpec" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FormingMagicSquareSpec - 2019.06.10 at 15h 40m 05s.xml">
-      <configuration name="FormingMagicSquareSpec" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FormingMagicSquareSpec - 2019.06.10 at 15h 40m 36s.xml">
-      <configuration name="FormingMagicSquareSpec" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FormingMagicSquareSpec - 2019.06.10 at 15h 47m 24s.xml">
-      <configuration name="FormingMagicSquareSpec" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FormingMagicSquareSpec - 2019.06.10 at 15h 47m 38s.xml">
-      <configuration name="FormingMagicSquareSpec" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FormingMagicSquareSpec - 2019.06.10 at 15h 51m 07s.xml">
-      <configuration name="FormingMagicSquareSpec" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="FormingMagicSquareSpec - 2019.06.10 at 15h 54m 19s.xml">
       <configuration name="FormingMagicSquareSpec" configurationId="JUnit" />
     </history-entry>
@@ -362,6 +306,27 @@
     </history-entry>
     <history-entry file="SimpleArraySumTest - 2019.09.05 at 17h 13m 35s.xml">
       <configuration name="SimpleArraySumTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SimpleArraySumTest - 2019.09.05 at 17h 13m 56s.xml">
+      <configuration name="SimpleArraySumTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SimpleArraySumTest - 2019.09.05 at 17h 14m 35s.xml">
+      <configuration name="SimpleArraySumTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CompareTripletsSpec - 2019.09.05 at 17h 37m 37s.xml">
+      <configuration name="CompareTripletsSpec" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CompareTripletsSpec - 2019.09.05 at 17h 38m 27s.xml">
+      <configuration name="CompareTripletsSpec" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CompareTripletsSpec - 2019.09.05 at 17h 40m 41s.xml">
+      <configuration name="CompareTripletsSpec" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CompareTripletsSpec - 2019.09.05 at 17h 42m 08s.xml">
+      <configuration name="CompareTripletsSpec" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CompareTripletsSpec - 2019.09.05 at 17h 42m 53s.xml">
+      <configuration name="CompareTripletsSpec" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -386,14 +351,14 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3660419" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.28150135" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3660419" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.28114665" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3283582" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.3283582" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="9" weight="0.3283582" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="9" visible="true" weight="0.32745314" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.42888644" />
       <window_info anchor="bottom" id="SonarQube" order="11" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -537,16 +502,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/FormingMagicSquareSpec.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-          <folding>
-            <element signature="e#0#31#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/FormingMagicSquare.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="232">
@@ -611,8 +566,45 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/SimpleArraySumTest.groovy">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="20" column="35" lean-forward="true" selection-start-line="20" selection-start-column="35" selection-end-line="20" selection-end-column="35" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/FormingMagicSquareSpec.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/util/List.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
-          <caret line="12" column="57" selection-start-line="12" selection-start-column="57" selection-end-line="12" selection-end-column="57" />
+          <caret line="621" column="8" selection-start-line="621" selection-start-column="8" selection-end-line="621" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/CompareTripletsSpec.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/CompareTriplets.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="9" lean-forward="true" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
