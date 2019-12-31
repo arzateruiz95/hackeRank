@@ -1,0 +1,19 @@
+import spock.lang.Specification
+
+class BiggerIsGreaterSpec extends Specification {
+
+    void setup(){
+
+    }
+
+    def "check BiggerlsGreater"(){
+        when:
+        String  word = BiggerIsGreater.solution(w)
+        then:
+        word == w
+        where:
+       caso | w
+        1   |'dcba'
+        2   |'dcba'
+    }
+}
