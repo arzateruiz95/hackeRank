@@ -10,7 +10,6 @@ public class BiggerIsGreater {
         for (int i = 0; i < word.length; i++) {
             valueWord[i] = (int) word[i];
         }
-        w = Arrays.toString(word).equals(w) ? NO_ANSWER : Arrays.toString(word);
 
         System.out.println(Arrays.toString(word));
         System.out.println(Arrays.toString(valueWord));

@@ -13,7 +13,7 @@ class BiggerIsGreaterSpec extends Specification {
         word == w
         where:
        caso | w
-        1   |'dcba'
-        2   |'dcba'
+        1   |'dkhc'
+        2   |'hcdk'
     }
 }
