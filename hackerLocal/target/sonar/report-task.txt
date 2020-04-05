@@ -1,6 +1,0 @@
-projectKey=com.hacker.luis:com.hacker.luis
-serverUrl=http://localhost:9000
-serverVersion=7.7.0.23042
-dashboardUrl=http://localhost:9000/dashboard?id=com.hacker.luis%3Acom.hacker.luis
-ceTaskId=AWstpj7UeHOVD492eyHy
-ceTaskUrl=http://localhost:9000/api/ce/task?id=AWstpj7UeHOVD492eyHy
