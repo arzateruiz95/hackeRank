@@ -2,15 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="481b97d3-9d6e-4cbf-9458-028ffdd6ffa8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/MiniMaxSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/MiniMaxSumSpec.groovy" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/hackeRank.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/hackeRank.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/NonDivisibleSubsetTest.groovy" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/com.hacker.luis-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/com.hacker.luis-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,19 +18,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/MiniMaxSum.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/NonDivisibleSubset.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="24" lean-forward="true" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
+            <state relative-caret-position="75">
+              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/MiniMaxSumSpec.groovy">
+        <entry file="file://$PROJECT_DIR$/src/test/java/NonDivisibleSubsetTest.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="88" selection-start-line="14" selection-start-column="88" selection-end-line="14" selection-end-column="88" />
+            <state relative-caret-position="135">
+              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
             </state>
           </provider>
         </entry>
@@ -62,6 +55,10 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/MiniMaxSumSpec.groovy" />
         <option value="$PROJECT_DIR$/src/main/java/MiniMaxSum.java" />
+        <option value="$PROJECT_DIR$/src/test/java/EncryptionTest.groovy" />
+        <option value="$PROJECT_DIR$/src/main/java/Encryption.java" />
+        <option value="$PROJECT_DIR$/src/test/java/NonDivisibleSubsetTest.groovy" />
+        <option value="$PROJECT_DIR$/src/main/java/NonDivisibleSubset.java" />
       </list>
     </option>
   </component>
@@ -92,30 +89,18 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectConfigurationFiles">
-    <option name="files">
-      <list>
-        <option value="$PROJECT_DIR$/.idea/sonarSettings.xml" />
-        <option value="$PROJECT_DIR$/.idea/sonarIssues.xml" />
-        <option value="$PROJECT_DIR$/.idea/compiler.xml" />
-        <option value="$PROJECT_DIR$/.idea/misc.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_groovy_groovy_all_2_4_6.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_spockframework_spock_core_1_1_groovy_2_4_rc_2.xml" />
-      </list>
-    </option>
-  </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-9" />
-    <option name="width" value="1938" />
-    <option name="height" value="1050" />
+    <option name="y" value="23" />
+    <option name="width" value="1360" />
+    <option name="height" value="670" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -141,29 +126,15 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="hackeRank" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hackeRank" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hackeRank" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hackeRank" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="Spock" />
@@ -196,12 +167,31 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.MiniMaxSumSpec">
+  <component name="RunManager" selected="JUnit.EncryptionTest.Solution">
     <configuration name="AlternatingCharactersSpec" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="hackeRank" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="AlternatingCharactersSpec" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EncryptionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="hackeRank" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="EncryptionTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EncryptionTest.Solution" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="hackeRank" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="EncryptionTest" />
+      <option name="METHOD_NAME" value="Solution" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -217,6 +207,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.EncryptionTest.Solution" />
+        <item itemvalue="JUnit.EncryptionTest" />
         <item itemvalue="JUnit.MiniMaxSumSpec" />
         <item itemvalue="JUnit.AlternatingCharactersSpec" />
       </list>
@@ -233,7 +225,9 @@
       <option name="presentableId" value="Default" />
       <updated>1559836050643</updated>
       <workItem from="1586051307673" duration="3000" />
-      <workItem from="1586051787100" duration="7006000" />
+      <workItem from="1586051787100" duration="8037000" />
+      <workItem from="1586133474800" duration="1255000" />
+      <workItem from="1586544804636" duration="11318000" />
     </task>
     <task id="LOCAL-00001" summary="Configuracion Sonar">
       <created>1559839598304</created>
@@ -249,49 +243,63 @@
       <option name="project" value="LOCAL" />
       <updated>1586052342561</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Min max example">
+      <created>1586065873305</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1586065873305</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Resolve the problem Encryption">
+      <created>1586574006986</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1586574006986</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MiniMaxSumSpec - 2020.04.04 at 21h 04m 12s.xml">
-      <configuration name="MiniMaxSumSpec" configurationId="JUnit" />
+    <history-entry file="EncryptionTest_Solution - 2020.04.10 at 21h 44m 50s.xml">
+      <configuration name="EncryptionTest.Solution" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MiniMaxSumSpec - 2020.04.04 at 21h 05m 13s.xml">
-      <configuration name="MiniMaxSumSpec" configurationId="JUnit" />
+    <history-entry file="EncryptionTest_Solution - 2020.04.10 at 21h 44m 55s.xml">
+      <configuration name="EncryptionTest.Solution" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MiniMaxSumSpec - 2020.04.04 at 21h 05m 59s.xml">
-      <configuration name="MiniMaxSumSpec" configurationId="JUnit" />
+    <history-entry file="EncryptionTest_Solution - 2020.04.10 at 21h 52m 29s.xml">
+      <configuration name="EncryptionTest.Solution" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MiniMaxSumSpec - 2020.04.04 at 22h 39m 04s.xml">
-      <configuration name="MiniMaxSumSpec" configurationId="JUnit" />
+    <history-entry file="EncryptionTest_Solution - 2020.04.10 at 21h 52m 56s.xml">
+      <configuration name="EncryptionTest.Solution" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MiniMaxSumSpec - 2020.04.04 at 23h 41m 30s.xml">
-      <configuration name="MiniMaxSumSpec" configurationId="JUnit" />
+    <history-entry file="EncryptionTest_Solution - 2020.04.10 at 21h 53m 00s.xml">
+      <configuration name="EncryptionTest.Solution" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MiniMaxSumSpec - 2020.04.04 at 23h 42m 18s.xml">
-      <configuration name="MiniMaxSumSpec" configurationId="JUnit" />
+    <history-entry file="EncryptionTest_Solution - 2020.04.10 at 21h 53m 03s.xml">
+      <configuration name="EncryptionTest.Solution" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MiniMaxSumSpec - 2020.04.04 at 23h 42m 47s.xml">
-      <configuration name="MiniMaxSumSpec" configurationId="JUnit" />
+    <history-entry file="EncryptionTest_Solution - 2020.04.10 at 21h 53m 26s.xml">
+      <configuration name="EncryptionTest.Solution" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MiniMaxSumSpec - 2020.04.04 at 23h 43m 58s.xml">
-      <configuration name="MiniMaxSumSpec" configurationId="JUnit" />
+    <history-entry file="EncryptionTest_Solution - 2020.04.10 at 21h 53m 58s.xml">
+      <configuration name="EncryptionTest.Solution" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MiniMaxSumSpec - 2020.04.04 at 23h 44m 18s.xml">
-      <configuration name="MiniMaxSumSpec" configurationId="JUnit" />
+    <history-entry file="EncryptionTest_Solution - 2020.04.10 at 21h 56m 18s.xml">
+      <configuration name="EncryptionTest.Solution" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MiniMaxSumSpec - 2020.04.04 at 23h 46m 59s.xml">
-      <configuration name="MiniMaxSumSpec" configurationId="JUnit" />
+    <history-entry file="EncryptionTest_Solution - 2020.04.10 at 21h 57m 13s.xml">
+      <configuration name="EncryptionTest.Solution" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7009000" />
+    <option name="totallyTimeSpent" value="20613000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="802" extended-state="6" />
+    <frame x="1" y="23" width="1440" height="802" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3025751" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3111588" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -301,13 +309,13 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32957748" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="9" weight="0.3" />
+      <window_info anchor="bottom" id="Version Control" order="9" visible="true" weight="0.3" />
       <window_info anchor="bottom" id="SonarQube" order="10" weight="0.3283582" />
       <window_info anchor="bottom" id="Inspection Results" order="11" weight="0.3296582" />
       <window_info anchor="bottom" id="Messages" order="12" />
@@ -333,115 +341,27 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Configuracion Sonar" />
     <MESSAGE value="Repository clean-up" />
-    <option name="LAST_COMMIT_MESSAGE" value="Repository clean-up" />
+    <MESSAGE value="Min max example" />
+    <MESSAGE value="Resolve the problem Encryption" />
+    <option name="LAST_COMMIT_MESSAGE" value="Resolve the problem Encryption" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/hackerLocal/src/main/java/MyRegex.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hackerLocal/src/main/java/util/ReadFileUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="31" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hackerLocal/src/test/java/util/ReadFileUtilSpec.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hackerLocal/src/test/java/AlternatingCharactersSpec.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="27" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
-          <folding>
-            <element signature="e#0#31#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/hackerLocal/src/main/java/MyRegex.java" />
+    <entry file="file://$PROJECT_DIR$/hackerLocal/src/main/java/util/ReadFileUtil.java" />
+    <entry file="file://$PROJECT_DIR$/hackerLocal/src/test/java/util/ReadFileUtilSpec.groovy" />
+    <entry file="file://$PROJECT_DIR$/hackerLocal/src/test/java/AlternatingCharactersSpec.groovy" />
     <entry file="file://$PROJECT_DIR$/hackerLocal/src/main/java/DuplicateWords" />
-    <entry file="file://$PROJECT_DIR$/hackerLocal/src/main/java/FormingMagicSquare.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hackerLocal/src/main/java/ClimbingLeaderboard.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/hackerLocal/src/main/java/FormingMagicSquare.java" />
+    <entry file="file://$PROJECT_DIR$/hackerLocal/src/main/java/ClimbingLeaderboard.java" />
     <entry file="file://$PROJECT_DIR$/hackerLocal/src/main/java/DuplicateWords.java" />
-    <entry file="file://$PROJECT_DIR$/hackerLocal/src/main/java/CountingValleys.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hackerLocal/src/main/java/MakingAnagrams.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="13" column="5" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hackerLocal/src/test/java/MakingAnagramsSpec.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hackerLocal/.idea/workspace.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="71" column="10" selection-start-line="71" selection-start-column="10" selection-end-line="71" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/hackerLocal/src/main/java/CountingValleys.java" />
+    <entry file="file://$PROJECT_DIR$/hackerLocal/src/main/java/MakingAnagrams.java" />
+    <entry file="file://$PROJECT_DIR$/hackerLocal/src/test/java/MakingAnagramsSpec.groovy" />
+    <entry file="file://$PROJECT_DIR$/hackerLocal/.idea/workspace.xml" />
     <entry file="file://$PROJECT_DIR$/hackerLocal/src/main/java/Duplicados.java" />
-    <entry file="file://$PROJECT_DIR$/hackerLocal/src/main/java/SimpleArraySum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hackerLocal/src/main/java/JumpingOnTheClouds.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hackerLocal/src/main/java/AlternatingCharacters.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2212" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="20" lean-forward="true" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/AlternatingCharactersSpec.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="22" column="1" lean-forward="true" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/hackerLocal/src/main/java/SimpleArraySum.java" />
+    <entry file="file://$PROJECT_DIR$/hackerLocal/src/main/java/JumpingOnTheClouds.java" />
+    <entry file="file://$PROJECT_DIR$/hackerLocal/src/main/java/AlternatingCharacters.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/MakingAnagramsSpec.groovy">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -458,8 +378,70 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/MiniMaxSum.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="24" lean-forward="true" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
+        <state relative-caret-position="105">
+          <caret line="7" column="7" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="14" column="21" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/AlternatingCharacters.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="13" selection-start-column="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="655" column="4" selection-start-line="655" selection-start-column="4" selection-end-line="655" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/AlternatingCharactersSpec.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="3" column="53" selection-start-line="3" selection-start-column="40" selection-end-line="3" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Encryption.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="20" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/EncryptionTest.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="17" selection-end-line="22" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/NonDivisibleSubsetTest.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/NonDivisibleSubset.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
     </entry>
