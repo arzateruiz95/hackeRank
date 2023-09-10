@@ -23,8 +23,6 @@ public class ApplesAndOranges {
     public static void countApplesAndOranges(int s, int t, int a, int b, List<Integer> apples, List<Integer> oranges) {
      List<Integer> applesProcessed = apples.stream().map(it -> it + a).collect(Collectors.toList());
      List<Integer> orangesProcessed = oranges.stream().map(it -> it + b).collect(Collectors.toList());
-        System.out.println(Arrays.toString(applesProcessed.toArray()));
-        System.out.println(Arrays.toString(orangesProcessed.toArray()));
         Long applesResult = apples.stream().map(it -> it + a).filter(it -> it >= s &&  it <= t).count();
         Long orangesResult= oranges.stream().map(it -> it + b).filter(it -> it >= s &&  it <= t).count();
         System.out.println(applesResult);

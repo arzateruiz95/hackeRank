@@ -20,7 +20,7 @@ public class ClimbingLeaderboard {
         }
         count = 0;
         for (Integer scoreA : alice) {
-            if (climbing.keySet().contains(scoreA)) {
+            if (climbing.containsKey(scoreA)) {
                 int d = 0;
                 int dAux = (scoresLength - 1) / 2;
                 int aux;
@@ -33,7 +33,7 @@ public class ClimbingLeaderboard {
                 for (int i = d; i <= dAux; i++) {
                     if (scores[i] == scoreA) {
                         result[count] = climbing.get(scores[i]);
-                        break score;
+                        break;
                     }
                 }
             } else {
@@ -65,4 +65,5 @@ public class ClimbingLeaderboard {
         }
         return climbing.get(scores[scores.length - 1]) + 1;
     }
+
 }

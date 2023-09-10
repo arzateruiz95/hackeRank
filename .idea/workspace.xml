@@ -1,12 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="481b97d3-9d6e-4cbf-9458-028ffdd6ffa8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/NonDivisibleSubsetTest.groovy" afterDir="false" />
+    <list default="true" id="481b97d3-9d6e-4cbf-9458-028ffdd6ffa8" name="Default Changelist" comment="Resolve challenges">
+      <change afterPath="$PROJECT_DIR$/src/main/java/CycleDetection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/EmployeeFilterAndSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Java1DArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Java1DArrayPart2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cycle/SinglyLinkedListNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fit/Album.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fit/Artist.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fit/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fit/Song.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_groovy_groovy_all_2_4_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_spockframework_spock_core_1_1_groovy_2_4_rc_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ApplesAndOranges.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ApplesAndOranges.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ClimbingLeaderboard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ClimbingLeaderboard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/LongestIcreasingSubArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LongestIcreasingSubArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ClimbingLeaderboardSpec.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ClimbingLeaderboardSpec.groovy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ClimbingLeaderboard.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ClimbingLeaderboard.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/ClimbingLeaderboardSpec.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ClimbingLeaderboardSpec.class" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/target/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,28 +36,6 @@
   </component>
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/NonDivisibleSubset.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/NonDivisibleSubsetTest.groovy">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -45,6 +45,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
@@ -61,6 +66,9 @@
         <option value="$PROJECT_DIR$/src/main/java/NonDivisibleSubset.java" />
       </list>
     </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
@@ -89,11 +97,15 @@
       <select />
     </treeState>
   </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="23" />
     <option name="width" value="1360" />
     <option name="height" value="670" />
   </component>
+  <component name="ProjectId" id="2IH0tHm1x8DaVmQHq4Zr8ZdrpsB" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -132,88 +144,93 @@
       </pane>
     </panes>
   </component>
-  <component name="PropertiesComponent">
-    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="Spock" />
-    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Spock" value="spock.lang.Specification" />
-    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.2" />
-    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="projectSettingsConfigurable" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;Spock&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Spock&quot;: &quot;spock.lang.Specification&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;birthdayCakeCandles&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/luisarzate/Documents/courses/HackerrankKo&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
   <component name="RecentsManager">
-    <key name="CreateTestDialog.RecentsKey">
-      <recent name="" />
-    </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="spock.lang.Specification" />
     </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="" />
+    </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="JUnit.EncryptionTest.Solution">
-    <configuration name="AlternatingCharactersSpec" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="hackeRank" />
+  <component name="RunManager" selected="JUnit.ClimbingLeaderboardSpec">
+    <configuration name="ApplesAndOranges" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ApplesAndOranges" />
+      <module name="com.hacker.luis" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EmployeeFilterAndSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="EmployeeFilterAndSort" />
+      <module name="com.hacker.luis" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="fit.Solution" />
+      <module name="com.hacker.luis" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="fit.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ClimbingLeaderboardSpec" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="com.hacker.luis" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="AlternatingCharactersSpec" />
+      <option name="MAIN_CLASS_NAME" value="ClimbingLeaderboardSpec" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EncryptionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="hackeRank" />
+    <configuration name="ClimbingLeaderboardSpec.Valida ClimbingLeaderBoard" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="com.hacker.luis" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="EncryptionTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="EncryptionTest.Solution" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="hackeRank" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="EncryptionTest" />
-      <option name="METHOD_NAME" value="Solution" />
+      <option name="MAIN_CLASS_NAME" value="ClimbingLeaderboardSpec" />
+      <option name="METHOD_NAME" value="Valida ClimbingLeaderBoard" />
       <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MiniMaxSumSpec" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="hackeRank" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="MiniMaxSumSpec" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.EncryptionTest.Solution" />
-        <item itemvalue="JUnit.EncryptionTest" />
-        <item itemvalue="JUnit.MiniMaxSumSpec" />
-        <item itemvalue="JUnit.AlternatingCharactersSpec" />
+        <item itemvalue="JUnit.ClimbingLeaderboardSpec" />
+        <item itemvalue="JUnit.ClimbingLeaderboardSpec.Valida ClimbingLeaderBoard" />
+        <item itemvalue="Application.Solution" />
+        <item itemvalue="Application.ApplesAndOranges" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -228,6 +245,29 @@
       <workItem from="1586051787100" duration="8037000" />
       <workItem from="1586133474800" duration="1255000" />
       <workItem from="1586544804636" duration="11318000" />
+      <workItem from="1669823415407" duration="616000" />
+      <workItem from="1670432127360" duration="1265000" />
+      <workItem from="1670956516240" duration="599000" />
+      <workItem from="1672795270218" duration="3342000" />
+      <workItem from="1672951034502" duration="4449000" />
+      <workItem from="1673382368766" duration="2001000" />
+      <workItem from="1673926659439" duration="4456000" />
+      <workItem from="1674328095129" duration="5091000" />
+      <workItem from="1685386018560" duration="4589000" />
+      <workItem from="1685551408983" duration="9067000" />
+      <workItem from="1685675866210" duration="1360000" />
+      <workItem from="1685989814491" duration="1361000" />
+      <workItem from="1686075123984" duration="4245000" />
+      <workItem from="1686155298178" duration="1818000" />
+      <workItem from="1686591171474" duration="1536000" />
+      <workItem from="1686624545518" duration="1585000" />
+      <workItem from="1686670508734" duration="600000" />
+      <workItem from="1686714851904" duration="857000" />
+      <workItem from="1686716285399" duration="6252000" />
+      <workItem from="1691456136565" duration="715000" />
+      <workItem from="1692667816472" duration="2469000" />
+      <workItem from="1694381413532" duration="639000" />
+      <workItem from="1694385106404" duration="651000" />
     </task>
     <task id="LOCAL-00001" summary="Configuracion Sonar">
       <created>1559839598304</created>
@@ -257,7 +297,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586574006986</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Resolve challenges">
+      <created>1685990571600</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1685990571600</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -336,14 +383,92 @@
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Configuracion Sonar" />
     <MESSAGE value="Repository clean-up" />
     <MESSAGE value="Min max example" />
     <MESSAGE value="Resolve the problem Encryption" />
-    <option name="LAST_COMMIT_MESSAGE" value="Resolve the problem Encryption" />
+    <MESSAGE value="Resolve challenges" />
+    <option name="LAST_COMMIT_MESSAGE" value="Resolve challenges" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/NonDivisibleSubset.java</url>
+          <line>6</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/CakeCandlesSpec.groovy</url>
+          <line>20</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/CakeCandles.java</url>
+          <line>17</line>
+          <properties>
+            <option name="lambda-ordinal" value="-1" />
+          </properties>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/CakeCandlesSpec.groovy</url>
+          <line>18</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/CakeCandles.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/LongestIcreasingSubArray.java</url>
+          <line>33</line>
+          <properties>
+            <option name="lambda-ordinal" value="-1" />
+          </properties>
+          <option name="timeStamp" value="48" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/ReverseString.java</url>
+          <line>5</line>
+          <option name="timeStamp" value="49" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/fit/Solution.java</url>
+          <line>41</line>
+          <option name="timeStamp" value="54" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/fit/Solution.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="61" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/fit/Solution.java</url>
+          <line>4</line>
+          <properties class="fit.Solution" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="65" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/hackerLocal/src/main/java/MyRegex.java" />
