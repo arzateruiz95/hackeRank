@@ -15,12 +15,9 @@ public class MakingAnagrams {
 
     static Map<String, Integer> mapOccurrences(char[] valuesC, String anagram) {
         Map<String, Integer> values = new HashMap<String, Integer>();
-        List<String> q = new ArrayList<String>();
         for (char c : valuesC) {
             String temp = String.valueOf(c);
-            if (!q.contains(temp)) {
-                values.put(temp, repeatedString(anagram, c));
-            }
+            values.put(temp, repeatedString(anagram, c));
         }
         return values;
     }

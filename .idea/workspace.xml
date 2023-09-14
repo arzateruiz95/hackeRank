@@ -5,29 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="481b97d3-9d6e-4cbf-9458-028ffdd6ffa8" name="Default Changelist" comment="Resolve challenges">
-      <change afterPath="$PROJECT_DIR$/src/main/java/CycleDetection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/EmployeeFilterAndSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Java1DArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Java1DArrayPart2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cycle/SinglyLinkedListNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fit/Album.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fit/Artist.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fit/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fit/Song.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_groovy_groovy_all_2_4_6.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_spockframework_spock_core_1_1_groovy_2_4_rc_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/TheTimeInWords.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ApplesAndOranges.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ApplesAndOranges.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ClimbingLeaderboard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ClimbingLeaderboard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Encryption.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Encryption.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Java1DArrayPart2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Java1DArrayPart2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/LongestIcreasingSubArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LongestIcreasingSubArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ClimbingLeaderboardSpec.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ClimbingLeaderboardSpec.groovy" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ClimbingLeaderboard.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ClimbingLeaderboard.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/ClimbingLeaderboardSpec.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ClimbingLeaderboardSpec.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/MakingAnagrams.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MakingAnagrams.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SherlockAndTheValidString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SherlockAndTheValidString.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,6 +37,23 @@
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;arzateruiz95&quot;
+  }
+}</component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="5" />
+  </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="eea0a875-717a-4b6d-9697-e06d240d789e" />
+        <option name="url" value="https://github.com/arzateruiz95/hackeRank.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -174,16 +177,9 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ClimbingLeaderboardSpec">
-    <configuration name="ApplesAndOranges" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ApplesAndOranges" />
-      <module name="com.hacker.luis" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="EmployeeFilterAndSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="EmployeeFilterAndSort" />
+  <component name="RunManager" selected="Application.LongestIcreasingSubArray">
+    <configuration name="LongestIcreasingSubArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LongestIcreasingSubArray" />
       <module name="com.hacker.luis" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -221,12 +217,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="FormingMagicSquareSpec.Validate Formin a magic Square" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="com.hacker.luis" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="FormingMagicSquareSpec" />
+      <option name="METHOD_NAME" value="Validate Formin a magic Square" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LongestIcreasingSubArray" />
+        <item itemvalue="JUnit.FormingMagicSquareSpec.Validate Formin a magic Square" />
         <item itemvalue="JUnit.ClimbingLeaderboardSpec" />
         <item itemvalue="JUnit.ClimbingLeaderboardSpec.Valida ClimbingLeaderBoard" />
         <item itemvalue="Application.Solution" />
-        <item itemvalue="Application.ApplesAndOranges" />
       </list>
     </recent_temporary>
   </component>
@@ -267,7 +274,9 @@
       <workItem from="1691456136565" duration="715000" />
       <workItem from="1692667816472" duration="2469000" />
       <workItem from="1694381413532" duration="639000" />
-      <workItem from="1694385106404" duration="651000" />
+      <workItem from="1694385106404" duration="1225000" />
+      <workItem from="1694386459589" duration="7404000" />
+      <workItem from="1694447457641" duration="1940000" />
     </task>
     <task id="LOCAL-00001" summary="Configuracion Sonar">
       <created>1559839598304</created>
@@ -304,7 +313,15 @@
       <option name="project" value="LOCAL" />
       <updated>1685990571600</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Resolve challenges">
+      <option name="closed" value="true" />
+      <created>1694385893584</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1694385893584</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -434,14 +451,6 @@
           <url>file://$PROJECT_DIR$/src/main/java/CakeCandles.java</url>
           <line>19</line>
           <option name="timeStamp" value="25" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/LongestIcreasingSubArray.java</url>
-          <line>33</line>
-          <properties>
-            <option name="lambda-ordinal" value="-1" />
-          </properties>
-          <option name="timeStamp" value="48" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/ReverseString.java</url>

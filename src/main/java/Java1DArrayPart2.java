@@ -2,9 +2,6 @@ import java.util.Scanner;
 
 public class Java1DArrayPart2 {
 
-    private static final String YES = "YES";
-    private static final String NO = "NO";
-
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int T = scanner.nextInt();

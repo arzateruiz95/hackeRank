@@ -21,7 +21,7 @@ public class Encryption {
     }
 
     public static int[] getMatrix(int length) {
-        int row = (int) Math.floor(Math.sqrt((double) length));
+        int row = (int) Math.floor(Math.sqrt( length));
         int columns = row * row == length ? row : row + 1;
         row = row * columns < length ? row + 1 : row;
         return new int[]{row, columns};

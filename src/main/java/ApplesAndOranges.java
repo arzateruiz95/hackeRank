@@ -1,6 +1,5 @@
 import java.util.Arrays;
 import java.util.List;
-import java.util.Locale;
 import java.util.stream.Collectors;
 
 public class ApplesAndOranges {
@@ -27,8 +26,6 @@ public class ApplesAndOranges {
         Long orangesResult= oranges.stream().map(it -> it + b).filter(it -> it >= s &&  it <= t).count();
         System.out.println(applesResult);
         System.out.println(orangesResult);
-
-        //List<Integer> orangesProcessed = oranges.stream().map(it -> it + b).collect(Collectors.toList());
     }
 
 }

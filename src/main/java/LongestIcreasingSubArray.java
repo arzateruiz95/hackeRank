@@ -9,9 +9,10 @@ public class LongestIcreasingSubArray {
         // two possible solution 2,4,7 or 6,8,9
         int[] test = {1, 3, 2, 4, 7, 6, 8, 9};
         int[] test2 = {1, 2, 3, 4, 5, 6, 8, 9};
+        int[] test4 = {5, 2, 7, 4, 3, 8};
         int[] test3 = {5,4,3,2,1};
-        getSubarrays(test);
-        System.out.println(Arrays.toString(findLongestIncreasingSubArray(test)));
+        //getSubarrays(test);
+        System.out.println(Arrays.toString(findLongestIncreasingSubArray(test4)));
         /*
          Scanner scan = new Scanner(System.in);
         Integer input = 0;
