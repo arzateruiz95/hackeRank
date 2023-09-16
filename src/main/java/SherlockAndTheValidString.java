@@ -34,7 +34,7 @@ public class SherlockAndTheValidString {
             }
         }
 
-        count1 = count1<count2?count1:count2;
+        count1 = Math.min(count1, count2);
         return count1 < 2 ? YES : NO;
     }
 

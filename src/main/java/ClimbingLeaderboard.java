@@ -2,16 +2,12 @@ import java.util.*;
 
 public class ClimbingLeaderboard {
 
-    private static int scoresLength;
-    private static Map<Integer, Integer> climbing;
-
-
     static int[] climbingLeaderboard(int[] scores, int[] alice) {
         int[] result = new int[alice.length];
-        climbing = new HashMap<Integer, Integer>();
-
+        Map<Integer, Integer>  climbing = new HashMap<Integer, Integer>();
+        int scoresLength = scores.length;
         int count = 1;
-        scoresLength = scores.length;
+
         for (int score : scores) {
             if (!climbing.containsKey(score)) {
                 climbing.put(score, count);
@@ -20,7 +16,7 @@ public class ClimbingLeaderboard {
         }
         count = 0;
         for (Integer scoreA : alice) {
-            if (climbing.keySet().contains(scoreA)) {
+            if (climbing.containsKey(scoreA)) {
                 int d = 0;
                 int dAux = (scoresLength - 1) / 2;
                 int aux;
@@ -33,18 +29,18 @@ public class ClimbingLeaderboard {
                 for (int i = d; i <= dAux; i++) {
                     if (scores[i] == scoreA) {
                         result[count] = climbing.get(scores[i]);
-                        break score;
+                        break;
                     }
                 }
             } else {
-                result[count] = scores[0] < scoreA ? 1 : newPosition(scoreA, scores);
+                result[count] = scores[0] < scoreA ? 1 : newPosition(climbing, scoreA, scores, scoresLength);
             }
             count++;
         }
         return result;
     }
 
-    private static int newPosition(int score, int[] scores) {
+    private static int newPosition(Map<Integer, Integer>  climbing, int score, int[] scores, int scoresLength) {
         if (score > scores[scores.length - 1]) {
             int d = 1;
             int dAux = (scoresLength - 1) / 2;
@@ -65,4 +61,5 @@ public class ClimbingLeaderboard {
         }
         return climbing.get(scores[scores.length - 1]) + 1;
     }
+
 }
