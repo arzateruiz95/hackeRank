@@ -1,63 +1,53 @@
 import java.util.*;
+import java.util.stream.Collectors;
 
 public class SherlockAndTheValidString {
 
-    public static final String YES = "YES";
-    public static final String NO = "NO";
-
     static String isValid(String s) {
-        int count1 = 0;
-        int count2 = 0;
-        Object[]valores =  mapOccurrences(s.toCharArray(), s).values().toArray();
-        int shortV = (Integer)valores[0];
-        int longV = (Integer)valores[0];
+        Object[] values =  mapOccurrences(s).values().toArray();
+        int shortV = (Integer)values[0];
+        int longV = (Integer)values[0];
+        int minShort = 0;
+        int minLong = 0;
         int i = 0;
-        while (i < valores.length) {
-            if (shortV > (Integer) valores[i]) {
-                shortV = (Integer)valores[i];
-                count1 = 0;
+        while (i < values.length) {
+            if (shortV > (Integer) values[i]) {
+                shortV = (Integer)values[i];
+                minShort = 0;
                 i = 0;
+
             } else {
-                count1 = shortV < (Integer)valores[i] ? ((Integer)valores[i] - shortV) +count1 : count1;
+                minShort = shortV < (Integer)values[i] ? ((Integer)values[i] - shortV) + minShort : minShort;
                 i++;
             }
         }
         i=0;
-        while (i < valores.length) {
-            if (longV < (Integer) valores[i]) {
-                longV = (Integer)valores[i];
-                count2 = 0;
+        while (i < values.length) {
+            if (longV < (Integer) values[i]) {
+                longV = (Integer)values[i];
+                minLong = 0;
                 i = 0;
             } else {
-                count2 = longV > (Integer)valores[i] ?  (((Integer)valores[i]+longV)-longV ) + count2 : count2;
+                minLong = longV > (Integer)values[i] ?  (Integer)values[i] + minLong : minLong;
                 i++;
             }
         }
 
-        count1 = Math.min(count1, count2);
-        return count1 < 2 ? YES : NO;
+        minShort = Math.min(minShort, minLong);
+        return minShort < 2 ? "YES" : "NO";
     }
 
-    static Map<String, Integer> mapOccurrences(char[] valuesC, String s) {
-        Map<String, Integer> values = new HashMap<String, Integer>();
-        List<String> q = new ArrayList<String>();
-        for (char c : valuesC) {
-            String temp = String.valueOf(c);
-            if (!q.contains(temp)) {
-                values.put(temp, repeatedString(s, c));
-            }
-            q.add(String.valueOf(c));
-        }
-        return values;
+
+    static Map<String, Integer> mapOccurrences( String s) {
+        return s.chars()
+                .distinct()
+                .boxed()
+                .collect(Collectors.toMap(
+                        String::valueOf,
+                        c -> (int) s.chars().filter(ch -> ch == c).count()
+                ));
     }
 
-    static int repeatedString(String s, char c) {
-        int countS = 0;
-        for (int j = 0; j < s.length(); j++) {
-            countS = s.charAt(j) == c ? countS + 1 : countS;
-        }
-        return countS;
-    }
 
     public static void main(String[] args) {
         String s = "assdasdad";

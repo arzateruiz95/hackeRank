@@ -3,7 +3,9 @@ import java.util.*;
 
 public class TheTimeInWords {
 
-    public static final int HALF = 30;
+    private static final int HALF = 30;
+
+    private static final String SPACE = " ";
     private static final Map<Integer, String> NUMBERS;
     private static final List<String> EXACT_TIME = Arrays.asList("quarter", "half");
 
@@ -34,42 +36,40 @@ public class TheTimeInWords {
         NUMBERS.put(45, "quarter");
     }
 
-    private static final String SPACE = " ";
+
 
 
     static String timeInWords(int h, int m) {
         StringBuilder builder = new StringBuilder();
         if (m != 0) {
-            return timeFormat(h, m, builder);
+             timeFormat(h, m, builder);
+        }else {
+            builder.append(NUMBERS.get(h));
+            builder.append(SPACE).append(NUMBERS.get(m));
         }
-        builder.append(NUMBERS.get(h));
-        builder.append(SPACE).append(NUMBERS.get(m));
         return builder.toString();
     }
 
-    static String timeFormat(int h, int m, StringBuilder builder) {
+    static void timeFormat(int h, int m, StringBuilder builder) {
         h = m > HALF ? h != 12 ? h + 1 : 1 : h;
-        builder.append(getMinutes(m))
-                .append(SPACE)
+        getMinutes(m, builder);
+        builder.append(SPACE)
                 .append(m > HALF ? "to" : "past")
                 .append(SPACE)
                 .append(NUMBERS.get(h));
-        return builder.toString();
     }
 
-    static String getMinutes(int m) {
+    static void getMinutes(int m,  StringBuilder builder) {
         m = m <= HALF ? m : 60 - m;
-        int twentys = (m - 20);
+        int minuteMinusTwenty = m - 20;
         String number = NUMBERS.get(m);
-        StringBuilder builder = new StringBuilder();
-        if (0 < twentys && twentys < 10) {
-            builder.append(NUMBERS.get(20)).append(SPACE).append(NUMBERS.get(twentys));
+        if (0 < minuteMinusTwenty && minuteMinusTwenty < 10) {
+            builder.append(NUMBERS.get(20)).append(SPACE).append(NUMBERS.get(minuteMinusTwenty));
         } else {
             builder.append(number);
         }
         String minutes = EXACT_TIME.contains(number) ? "" : m == 1 ? " minute": " minutes";
         builder.append(minutes);
-        return builder.toString();
     }
 
     private static final Scanner scanner = new Scanner(System.in);

@@ -1,10 +1,11 @@
 import java.util.*;
+import java.util.stream.Collectors;
 
 public class ClimbingLeaderboard {
 
     static int[] climbingLeaderboard(int[] scores, int[] alice) {
         int[] result = new int[alice.length];
-        Map<Integer, Integer>  climbing = new HashMap<Integer, Integer>();
+        Map<Integer, Integer>  climbing = new HashMap<Integer, Integer> ();
         int scoresLength = scores.length;
         int count = 1;
 
@@ -25,7 +26,6 @@ public class ClimbingLeaderboard {
                     aux = dAux + (dAux / 2);
                     dAux = aux < scoresLength ? aux : dAux + 1;
                 }
-                score:
                 for (int i = d; i <= dAux; i++) {
                     if (scores[i] == scoreA) {
                         result[count] = climbing.get(scores[i]);
@@ -61,5 +61,6 @@ public class ClimbingLeaderboard {
         }
         return climbing.get(scores[scores.length - 1]) + 1;
     }
+
 
 }

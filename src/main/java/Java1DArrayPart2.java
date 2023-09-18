@@ -20,26 +20,27 @@ public class Java1DArrayPart2 {
         }
     }
 
-    private static boolean canWin(int[] a, boolean[] canJumps, int leap, int pos) {
+    private static boolean canWin(int[] game, boolean[] canJumps, int leap, int index) {
 
-        if (pos < 0)
+        if (index < 0)
             return false;
-        if (pos >= a.length)
+        if (index >= game.length)
             return true;
-        if (a[pos] == 1)
+        if (game[index] == 1)
             return false;
 
-        if (canJumps[pos])
+        if (canJumps[index])
             return false;
-        canJumps[pos] = true;
 
-        if (canWin(a, canJumps, leap, pos + leap))
-            return true;
+        canJumps[index] = true;
 
-        if (canWin(a, canJumps, leap, pos + 1))
+        if (canWin(game, canJumps, leap, index + leap))
             return true;
 
-        return canWin(a, canJumps, leap, pos - 1);
+        if (canWin(game, canJumps, leap, index + 1))
+            return true;
+
+        return canWin(game, canJumps, leap, index - 1);
     }
 
 }

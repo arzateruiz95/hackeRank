@@ -8,28 +8,20 @@ public class MakingAnagrams {
         int count = 0;
         for (String key : aValues.keySet()) {
             int difference = aValues.get(key) <= bValues.get(key) ? bValues.get(key) - aValues.get(key) : aValues.get(key) - bValues.get(key);
-            count= difference == 0 ? count : count+difference;
+            count = difference == 0 ? count : count + difference;
         }
         return count;
     }
 
     static Map<String, Integer> mapOccurrences(char[] valuesC, String anagram) {
-        Map<String, Integer> values = new HashMap<String, Integer>();
+        Map<String, Integer> values = new HashMap<>();
+
         for (char c : valuesC) {
-            String temp = String.valueOf(c);
-            values.put(temp, repeatedString(anagram, c));
+            int count = (int) anagram.chars().filter(ch -> ch == c).count();
+            values.put(String.valueOf(c), count);
         }
         return values;
     }
-
-    static int repeatedString(String s, char c) {
-        int countS = 0;
-        for (int j = 0; j < s.length(); j++) {
-            countS = s.charAt(j) == c ? countS + 1 : countS;
-        }
-        return countS;
-    }
-
 
     public static void main(String[] args) {
 

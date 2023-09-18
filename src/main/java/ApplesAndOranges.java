@@ -20,8 +20,6 @@ public class ApplesAndOranges {
      *  6. INTEGER_ARRAY oranges oranges: integer array, distances at which each orange falls from the tree.
      */
     public static void countApplesAndOranges(int s, int t, int a, int b, List<Integer> apples, List<Integer> oranges) {
-     List<Integer> applesProcessed = apples.stream().map(it -> it + a).collect(Collectors.toList());
-     List<Integer> orangesProcessed = oranges.stream().map(it -> it + b).collect(Collectors.toList());
         Long applesResult = apples.stream().map(it -> it + a).filter(it -> it >= s &&  it <= t).count();
         Long orangesResult= oranges.stream().map(it -> it + b).filter(it -> it >= s &&  it <= t).count();
         System.out.println(applesResult);
